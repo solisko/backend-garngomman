@@ -19,13 +19,13 @@ Använd git bash eller liknande verktyg
 **För att starta servern**
 
 har du inte nodemon kör:
-`
+```
 node index.js
-`
+```
 har du nodemon kör:
-`
+```
 nodemon index.js
-`
+```
 
 vill du börja använda nodemon kör detta command
 

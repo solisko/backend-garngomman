@@ -16,17 +16,16 @@ Använd git bash eller liknande verktyg
 3. npm i
 ```
 
-För att starta servern
+**För att starta servern**
 
-```
-#har du inte nodemon kör:
-
+har du inte nodemon kör:
+`
 node index.js
-
-#har du nodemon kör:
-
+`
+har du nodemon kör:
+`
 nodemon index.js
-```
+`
 
 vill du börja använda nodemon kör detta command
 

@@ -1,0 +1,18 @@
+{
+  "name": "backend-garngomman",
+  "version": "1.0.0",
+  "description": "Garngömman är en app för dig som älskar att virka!\r Här kan du skapa ett användarkonto och spara dina virk-prylar digitalt på ett och samma ställe.\r Genom detta kan du få tips på olika projekt du kan göra med just dina prylar samt få inspiration från andra.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/app.js",
+    "dev": "node --watch ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "path": "^0.12.7"
+  }
+}

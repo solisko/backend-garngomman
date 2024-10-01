@@ -4,9 +4,11 @@
   "description": "Garngömman är en app för dig som älskar att virka!\r Här kan du skapa ett användarkonto och spara dina virk-prylar digitalt på ett och samma ställe.\r Genom detta kan du få tips på olika projekt du kan göra med just dina prylar samt få inspiration från andra.",
   "main": "./src/service.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --group=-component --group=-integration",
     "start": "node ./src/service.js",
-    "dev": "node --watch ./src/service.js"
+    "dev": "node --watch ./src/service.js",
+    "test:component": "jest --group=component",
+    "test:integration": "jest --group=integration"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +17,13 @@
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-runner-groups": "^2.2.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "runner": "groups"
   }
 }
